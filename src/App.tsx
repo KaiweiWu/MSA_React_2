@@ -1,7 +1,7 @@
 import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
-import Background from 'D:/MSA_React_2/my-app/src/resources/clouds.png';
+// import Background from 'D:/MSA_React_2/my-app/src/resources/clouds.png';
 import * as React from 'react';
 import './App.css';
 
@@ -9,11 +9,11 @@ interface IState {
   results: any,
 }
 
-const sectionStyle = {
+/*const sectionStyle = {
   backgroundImage: `url(${Background})`,
   height: "800px",
   width: "100%",
-}
+}*/
 
 const styles = ({
   button: {
@@ -58,7 +58,7 @@ class App extends React.Component<{}, IState> {
 
   public render() {
     return (
-      <section style={ sectionStyle }>
+      // <section style={ sectionStyle }>
       <div className="container-fluid">
       <div className="centreText">
         <h1>
@@ -79,7 +79,7 @@ class App extends React.Component<{}, IState> {
         </div>
       </div>
     </div>
-    </section>
+    // </section>
     );
   }
 }

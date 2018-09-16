@@ -1,7 +1,7 @@
 import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
-import Background from 'D:/MSA_React_2/my-app/src/clouds.png';
+import Background from 'D:/MSA_React_2/my-app/src/resources/clouds.png';
 import * as React from 'react';
 import './App.css';
 

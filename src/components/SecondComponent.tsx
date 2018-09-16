@@ -6,7 +6,7 @@ export default class SecondComponent extends React.Component <{}> {
                 return (
                         <div className="centreText">
                                 {/* React components must have a wrapper node/element */}
-                                <h1>༼ つ  ͡° ͜ʖ ͡° ༽つ</h1>
+                                <h1>Coming Soon!</h1>
                         </div>
                 );
         }

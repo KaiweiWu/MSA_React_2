@@ -6,7 +6,7 @@ export default class FirstComponent extends React.Component<{}> {
                 return (
                         <div className="centreText">
                                 {/* React components must have a wrapper node/element */}
-                                <h1>(▀̿Ĺ̯▀̿ ̿)</h1>
+                                <h1>Coming Soon!</h1>
                         </div>
                 );
         }
